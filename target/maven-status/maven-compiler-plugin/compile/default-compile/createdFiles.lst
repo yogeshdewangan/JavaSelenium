@@ -1,0 +1,7 @@
+base\BaseTest.class
+utils\Log.class
+pages\LoginPage.class
+utils\DriverFactory.class
+pages\HomePage.class
+utils\ConfigReader.class
+utils\TestData.class
