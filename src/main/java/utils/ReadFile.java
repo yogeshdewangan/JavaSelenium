@@ -12,7 +12,7 @@ public class ReadFile {
             BufferedReader br = new BufferedReader(new FileReader("file.txt"));
             String line;
             while ((line = br.readLine()) != null) {
-                // process line
+                System.out.println(line);
             }
             br.close();
         } catch (FileNotFoundException e) {
